@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: BeautifulFont;
+    src: url(./Assets/Fonts/6a1ed0dfa96e759e8395295a_BeautiqueDisplay-Italic.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+/* % -> vw, vh (vw- viewport width, vh - viewport height) */
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    /* background-color: white; */
+    padding: 0% 5%;
+    color: #fff;
+}
+
+.rght-nav{
+    display: flex;
+    gap: 2vw;
+}
+
+.rght-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 15%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/Images/bg01.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.para-section1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.para-section1 p{
+    font-size: 1.1vw;
+    letter-spacing: 5px;
+}
+
+#para-section2{
+    padding: 0% 5%;
+}
+
+#section1 h1{
+    font-size: 18vw;
+    font-family: BeautifulFont;
+    font-weight: 400;
+}
+
+#para{
+    text-align: center;
+    font-size: 1.2vw;
+    margin-bottom: 7%;
+}
+
