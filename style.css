@@ -88,3 +88,53 @@ nav{
     margin-bottom: 7%;
 }
 
+/* Section2 */
+
+#section2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding: 30px;
+}
+
+.inner-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+}
+
+.inner-section2 h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5vw;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+.inner-section2 .para-section1{
+    padding: 0;
+}
+
+.inner-section2 h1 span:nth-child(1){
+    align-self: flex-end;
+}
+.inner-section2 h1 span:nth-child(2){
+    align-self: flex-start;
+}
+
+.para-btm{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.para-btm p{
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
