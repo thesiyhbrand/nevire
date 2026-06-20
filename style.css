@@ -1,140 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @font-face {
-    font-family: BeautifulFont;
-    src: url(./Assets/Fonts/6a1ed0dfa96e759e8395295a_BeautiqueDisplay-Italic.otf);
+  font-family: BeautifulFont;
+  src: url(./Assets/Fonts/6a1ed0dfa96e759e8395295a_BeautiqueDisplay-Italic.otf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-html , body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 /* % -> vw, vh (vw- viewport width, vh - viewport height) */
 
-main{
-    width: 100%;
-    min-height: 100vh;
-    background-color: black;
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
 }
 
-nav{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 10vh;
-    /* background-color: white; */
-    padding: 0% 5%;
-    color: #fff;
+nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  /* background-color: white; */
+  padding: 0% 5%;
+  color: #fff;
 }
 
-.rght-nav{
-    display: flex;
-    gap: 2vw;
+.rght-nav {
+  display: flex;
+  gap: 2vw;
 }
 
-.rght-nav a{
-    text-decoration: none;
-    color: #fff;
+.rght-nav a {
+  text-decoration: none;
+  color: #fff;
 }
 
-#section1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding-top: 15%;
-    width: 100%;
-    height: 100vh;
-    background-image: url(./Assets/Images/bg01.png);
-    background-position: center;
-    background-size: cover;
-    color: #fff;
+#section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 15%;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Assets/Images/bg01.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
 }
 
-.para-section1{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0% 10%;
+.para-section1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
 }
 
-.para-section1 p{
-    font-size: 1.1vw;
-    letter-spacing: 5px;
+.para-section1 p {
+  font-size: 1.1vw;
+  letter-spacing: 5px;
 }
 
-#para-section2{
-    padding: 0% 5%;
+#para-section2 {
+  padding: 0% 5%;
 }
 
-#section1 h1{
-    font-size: 18vw;
-    font-family: BeautifulFont;
-    font-weight: 400;
+#section1 h1 {
+  font-size: 18vw;
+  font-family: BeautifulFont;
+  font-weight: 400;
 }
 
-#para{
-    text-align: center;
-    font-size: 1.2vw;
-    margin-bottom: 7%;
+#para {
+  text-align: center;
+  font-size: 1.2vw;
+  margin-bottom: 7%;
 }
 
 /* Section2 */
 
-#section2{
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    padding: 30px;
+#section2 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding: 30px;
 }
 
-.inner-section2{
+.inner-section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 5%;
+}
+
+.inner-section2 h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 5vw;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+.inner-section2 .para-section1 {
+  padding: 0;
+}
+
+.inner-section2 h1 span:nth-child(1) {
+  align-self: flex-end;
+}
+.inner-section2 h1 span:nth-child(2) {
+  align-self: flex-start;
+}
+
+.para-btm {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.para-btm p {
+  width: 30%;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+
+#section3 {
+  width: 100%;
+  min-height: 120vh;
+  background-color: black;
+  color: #fff;
+}
+.s3-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.heading {
+  font-size: 5vw;
+  font-weight: 600;
+  letter-spacing: -3px;
+}
+
+.paragraph {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+}
+
+#para-section3-lft {
+  width: 60%;
+  color: #ffffff94;
+}
+
+.photu-section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55vh;
+}
+
+.img-s3-1 {
+  width: 55%;
+  height: 100%;
+  background-image: url(./Assets/Images/img3_1.png);
+  background-size: cover;
+  border-radius: 0px 10px 10px 0px;
+  background-position: center;
+}
+
+.img-s3-2 {
+  width: 43%;
+  height: 100%;
+  background-image: url(./Assets/Images/img3_2.png);
+  background-size: cover;
+  border-radius: 10px 0px 0px 10px;
+  background-position: center;
+}
+
+.s3-details{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    height: 100%;
-    background-color: white;
+    height: 30vh;
     padding: 5%;
 }
 
-.inner-section2 h1{
+.s3-det-lft{
+    width: 50%;
+    height: 100%;
+}
+
+.s3-det-lft h4{
+    color: #ffffff94;
+    margin-bottom: 30px;
+}
+
+.s3-det-lft p{
+    width: 85%;
+}
+
+
+.s3-det-rght{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    font-size: 5vw;
-    font-weight: 600;
-    letter-spacing: -3px;
-}
-.inner-section2 .para-section1{
-    padding: 0;
+    align-items: end;
+    justify-content: start;
+    width: 50%;
+    height: 100%;
 }
 
-.inner-section2 h1 span:nth-child(1){
-    align-self: flex-end;
-}
-.inner-section2 h1 span:nth-child(2){
-    align-self: flex-start;
+.s3-det-rght ul{
+    list-style: none;
 }
 
-.para-btm{
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-}
-
-.para-btm p{
-    width: 30%;
-    font-size: 20px;
-    letter-spacing: -0.5px;
+.s3-det-rght ul li{
+    margin-bottom: 10px;
 }
