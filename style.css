@@ -195,41 +195,139 @@ nav {
   background-position: center;
 }
 
-.s3-details{
-    display: flex;
-    width: 100%;
-    height: 30vh;
-    padding: 5%;
+.s3-details {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  padding: 5%;
 }
 
-.s3-det-lft{
-    width: 50%;
-    height: 100%;
+.s3-det-lft {
+  width: 50%;
+  height: 100%;
 }
 
-.s3-det-lft h4{
-    color: #ffffff94;
-    margin-bottom: 30px;
+.s3-det-lft h4 {
+  color: #ffffff94;
+  margin-bottom: 30px;
 }
 
-.s3-det-lft p{
-    width: 85%;
+.s3-det-lft p {
+  width: 85%;
 }
 
+.s3-det-rght {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+  width: 50%;
+  height: 100%;
+}
 
-.s3-det-rght{
+.s3-det-rght ul {
+  list-style: none;
+}
+
+.s3-det-rght ul li {
+  margin-bottom: 10px;
+}
+
+/* Section4 */
+
+#section4 {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: start;
-    width: 50%;
-    height: 100%;
+    gap: 10vh;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding-bottom: 10vh;
 }
 
-.s3-det-rght ul{
-    list-style: none;
+#section4 .paragraph {
+  color: #333;
+  font-size: 18px;
 }
 
-.s3-det-rght ul li{
-    margin-bottom: 10px;
+.s4-card-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70vh;
+}
+
+.s4-card {
+  position: relative;
+  width: 45%;
+  height: 100%;
+  background-color: lawngreen;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.s4-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.img-det {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  /* background-color: orchid; */
+  padding: 20px;
+}
+
+.img-date {
+  width: 100%;
+  height: 7%;
+  background-color: rgba(0, 0, 0, 0.453);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.s4-card h4 {
+  color: #fff;
+}
+
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.img-overlay h1 {
+  background: -webkit-linear-gradient(0deg, #eee, #d426ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.s4-card:hover .img-overlay {
+  opacity: 1;
+}
+
+.s4-card:hover .img-card{
+    scale: 1.1;
 }
