@@ -514,3 +514,153 @@ color: #000;
 .s6-card h3{
   color: #fff;
 }
+
+/* Section 7 */
+
+#section7{
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  color: #fff;
+  padding-bottom: 30vh;
+}
+
+.s7-img-p{
+  width: 100%;
+  height: 110vh;
+  padding: 0% 5%;
+}
+
+.s7-img-s{
+  width: 40%;
+  height: 100%;
+  background-color: black;
+}
+
+.s7-img-s img{
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.s7-det{
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s7-det p{
+  text-transform: uppercase;
+}
+
+#s7-two{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+/* section 8 */
+
+#section8{
+  width: 100%;
+  height: 130vh;
+  background-color: white;
+}
+
+.s8-heading{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10vh 5%;
+}
+
+.s8-heading h1{
+  font-size: 5vw;
+}
+
+.s8-para{
+  width: 60%;
+  font-size: 16px;
+  color: #8b8b8b;
+  margin-top: 20px;
+}
+
+.box-s8-p{
+  width: 100%;
+  height: 100vh;
+  padding: 0% 5%;
+}
+
+.box-grid-p{
+  width: 100%;
+  height: 100%;
+}
+
+.box-grid-top{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.box-grid-btm{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.box-s8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: calc(100%/3);
+  height: 100%;
+  background-color: black;
+  border: 1px solid #656565;
+  color: #fff;
+}
+
+.box-s8-two{
+  width: calc(100% - 33.33%);
+}
+
+.box-s8 img{
+  width: 100px;
+}
+
+.box-s8 p{
+  text-transform: uppercase;
+}
+
+.box-white{
+  background-color: white;
+  color: #000;
+}
+
+.box-s8 h1{
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+.box-s8 h2{
+  font-size: 2vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.box-s8 button{
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.box-s8 button:hover{
+  border-radius: 0px;
+}
